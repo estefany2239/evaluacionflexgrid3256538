@@ -1,0 +1,207 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 175, 244);
+    padding: 15px 30px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.logo-img {
+    margin: 0;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 5px 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.menu ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.estilo {
+    background-color: rgb(242, 168, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.estilo2 p{
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.botom {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.botom button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 181, 206);
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botom button:hover {
+    background-color: rgb(255, 150, 190);
+}
+
+.elegante {
+    background-color: rgb(241, 168, 255);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.luna {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.luna img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.moda {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.moda2 {
+    background-color: pink;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.moda2 img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.fashion {
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.bouti {
+    background-color: rgb(214, 156, 235);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.videos iframe {
+    width: 360px;
+    height: 215px;
+    border-radius: 10px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+    background-color: pink;
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1); 
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
